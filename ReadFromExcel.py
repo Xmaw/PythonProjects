@@ -1,6 +1,6 @@
 import xlrd
 
-file_path = 'Skrivbord/export.xls'
+file_path = 'C:\\Users\\Johan\\PycharmProjects\\export.xls'
 wb = xlrd.open_workbook(file_path)
 sheet = wb.sheet_by_index(0)
 
